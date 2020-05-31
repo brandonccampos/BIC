@@ -1,0 +1,68 @@
+new Morris.Bar({
+    // ID of the element in which to draw the chart.
+    element: 'myfirstchart',
+    // Chart data records -- each entry in this array corresponds to a point on
+    // the chart.
+    data: [
+      { rating: 'Hansel y Gretel: Cazadores de brujas', moveid: 6.1 },
+      { rating: 'Fuerza antigangster', moveid: 6.7 },
+      { rating: 'Al filo del mañana', moveid: 7.9 },
+      { rating: 'El gran truco', moveid: 8.5 }, 
+      { rating: '300', moveid: 7.6 }, 
+      { rating: 'Inside Man', moveid: 7.6 }, 
+      { rating: 'Posesion Infernal', moveid: 8.5 },
+      { rating: 'The last of us', moveid: 9.8 }, 
+      { rating: 'Whiplash: Musica y obsesion', moveid: 8.5 }, 
+      { rating: 'Intensa Mente', moveid: 8.1 },
+      { rating: 'Spiderman', moveid: 7.1 },
+      { rating: 'Hangover', moveid: 4.7 },
+      { rating: 'Tonto y Retonto', moveid: 7.0 },
+      { rating: 'Rapido y furioso', moveid: 5.0 }, 
+      { rating: 'Madagascar', moveid: 2.6 }, 
+      { rating: 'Jumanji', moveid: 0.6 }, 
+      { rating: 'Batman', moveid: 8.0 },
+      { rating: 'Toy story', moveid: 9.0 }, 
+      { rating: 'Hombre en llamas', moveid: 2.7 }, 
+      { rating: 'Superman', moveid: 3.1 },
+      { rating: 'Space jam', moveid: 10 },
+      { rating: 'Gentleman', moveid: 7.7 },
+      { rating: 'Scarface', moveid: 7.9 },
+      { rating: 'El gran truco 2', moveid: 8.5 }, 
+      { rating: 'Mickey Mouse the movie', moveid: 7.6 }, 
+      { rating: 'Bright', moveid: 7.0 }, 
+      { rating: 'Bad boys', moveid: 5.0 },
+      { rating: 'Bad boys 2', moveid: 9.0 }, 
+      { rating: 'Bad boys 3', moveid: 5.4 }, 
+      { rating: 'Bill y mandy la pelicula', moveid: 3.9 },   
+      { rating: 'Prision break', moveid: 1.9 },
+      { rating: 'La otra milly', moveid: 4.4 },
+      { rating: 'Sniper', moveid: 1.2 },
+      { rating: 'El gran truco 2 ', moveid: 6.5 }, 
+      { rating: 'los ilusionistas', moveid: 6.0 }, 
+      { rating: 'En busca de la felicidad', moveid: 3.9 }, 
+      { rating: 'La verdad oculta', moveid: 9.1 },
+      { rating: 'The last of us 2', moveid: .5 }, 
+      { rating: 'La red social', moveid: 8.5 }, 
+      { rating: 'Avengers ', moveid: 1.8 },   
+      { rating: 'iron man', moveid: 1.6 },
+      { rating: 'la mujer maravilla', moveid: 7.2 },
+      { rating: 'Soy leyenda', moveid: 8.9 },
+      { rating: 'Pareja explosiva', moveid: 8.5 }, 
+      { rating: 'Pareja explosiva 2', moveid: 7.6 }, 
+      { rating: 'Pareja explosiva 3', moveid: 7.6 }, 
+      { rating: 'harry potter y el caliz de fuego', moveid: 8.5 },
+      { rating: 'Parasito', moveid: 9.2 }, 
+      { rating: 'El irlandes', moveid: 8.7 }, 
+      { rating: 'agente 007', moveid: 6.9 },            
+    ],
+    // The name of the data record attribute that contains x-values.
+    xkey: 'rating',
+    // A list of names of data record attributes that contain y-values.
+    ykeys: ['moveid'],
+    // Labels for the ykeys -- will be displayed when you hover over the
+    // chart.
+    labels: ['moveid'],
+    autosize : true,
+    barColors:['#bc0b44']
+  });
+  
